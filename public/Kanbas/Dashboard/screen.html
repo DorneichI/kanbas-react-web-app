@@ -1,6 +1,251 @@
 <html>
-    <head></head>
+    <head> 
+
+        <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="/Kanbas/styles.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+        <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
     <body>
-        Kanbas Dashboard screen.html
+        <div class="d-flex d-flex justify-content-between d-xs-block d-sm-none wd-navigation-row">
+            <div type="button" class="btn wd-button-padding" data-bs-toggle="collapse" href="#navigation" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div>
+                Dashboard
+            </div>
+            <div type="button" class="btn wd-button-padding" data-bs-toggle="collapse" href="#coursenavigation" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa fa-chevron-down"></i>
+            </div>
+        </div>
+        <div class="collapse" id="navigation">
+            <div class="card card-body wd-navigation-bars-card">
+                <ul class="wd-navigation-bars">
+                    <li>
+                        <a href="/Kanbas/Account/Profile/screen.html">
+                            <i class="fa fa-user-circle white"></i>Account</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Dashboard/screen.html">
+                            <i class="fa fa-tachometer"></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book"></i>Courses</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Calendar/index.html">
+                            <i class="fa fa-calendar"></i>Calendar</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Inbox/index.html">
+                            <i class="fa fa-inbox"></i>Inbox</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/History/index.html">
+                            <i class="fa fa-clock-o"></i>History</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Studio/index.html">
+                            <i class="fa fa-tv"></i>Studio</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Commons/index.html">
+                            <i class="fa fa-arrow-circle-right"></i>Commons</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Help/index.html">
+                            <i class="fa fa-question"></i>Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="collapse" id="coursenavigation">
+            <div class="card card-body wd-navigation-bars-card">
+                <ul class="wd-navigation-bars">
+                    <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-none d-sm-block col-sm-2">
+                <ul class="wd-kanbas-navigation">
+                    <li>
+                        <img src="/images/northeastern_logo_black.jpeg" alt="Northeastern Logo" width="40" height="40">
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Account/Profile/screen.html">
+                            <i class="fa fa-user-circle white"></i></br>Account</a>
+                    </li>
+                    <li class="wd-active">
+                        <a href="/Kanbas/Dashboard/screen.html">
+                            <i class="fa fa-tachometer"></i></br>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book"></i></br>Courses</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Calendar/index.html">
+                            <i class="fa fa-calendar"></i></br>Calendar</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Inbox/index.html">
+                            <i class="fa fa-inbox"></i></br>Inbox</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/History/index.html">
+                            <i class="fa fa-clock-o"></i></br>History</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Studio/index.html">
+                            <i class="fa fa-tv"></i></br>Studio</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Commons/index.html">
+                            <i class="fa fa-arrow-circle-right"></i></br>Commons</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Help/index.html">
+                            <i class="fa fa-question"></i></br>Help</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-10">
+                <h1>Dashboard</h1> <hr />
+      <h2>Published Courses (7)</h2> <hr />
+      <div class="row">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/honey_mustard.jpeg" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    CS2500 Fundamentals of Condiment Studies</a>
+                    <p class="card-text">Why Honey Mustard Is Best</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/ketchup_is_trash.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    CS2501 Lab for Fundamentals of Condiment Studies</a>
+                    <p class="card-text">Ketchup Belongs In The Trash</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/the_way_of_honey_mustard.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    CS2510 Fundamentals of Condiment Studies 2</a>
+                    <p class="card-text">Honey Mustard Is Still Best</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/seriously_just_chuck_it.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    CS2511 Lab for Fundamentals of Condiment Studies 2</a>
+                    <p class="card-text">Ketchup Yearns For The Trash</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/rene_mustcar.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    PHIL3200 Metaphysics with René Mustcar</a>
+                    <p class="card-text">I Think Therefore I Am Mustard</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/madtics_mastrad.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    MATH5990 The Mathematics of Honey Mustard</a>
+                    <p class="card-text">Madtics Mastrads Matrixes</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="col" style="width: 300px">
+            <a href="/Kanbas/Courses/Home/screen.html">
+                <div class="card">
+                <img src="/images/honey_mustard_pool.png" class="card-img-top"
+                    style="max-height: 150px"/>
+                <div class="card-body">
+                    <a class="card-title" href="/Kanbas/Courses/Home/screen.html"
+                    style="text-decoration: none; color: navy; font-weight: bold">
+                    PE3220 Swimming in Honey Mustard</a>
+                    <p class="card-text">Seriously Take A Dip In It</p>
+                    <a html="#" class="btn btn-primary"> Go </a>
+                </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+        </div>
     </body>
 </html>
