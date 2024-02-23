@@ -1,5 +1,4 @@
 import { HiMiniBars3 } from "react-icons/hi2";
-import { FaChevronDown } from "react-icons/fa6";
 import { useLocation, useParams } from "react-router";
 import { Link } from "react-router-dom"
 import { courses } from "../Database";

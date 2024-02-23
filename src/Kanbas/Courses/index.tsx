@@ -4,7 +4,6 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 import TopBar from "./TopBar";
-import "./index.css"
 import SmallScreenNavigationCourses from "./SmallScreenNavigationCourses";
 function Courses() {
   return (
