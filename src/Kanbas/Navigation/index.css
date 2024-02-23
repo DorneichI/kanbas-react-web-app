@@ -1,0 +1,63 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  
+    margin: 0px;
+    width: 80px;
+}
+
+.wd-kanbas-navigation li {
+    padding: 10px; 
+    margin-bottom: 10px;
+    font-size: 0.8em; 
+    text-align: center;
+}
+
+.wd-kanbas-navigation li button {
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    padding: 0px;
+    font-size: 1em; 
+    text-align: center;
+}
+.wd-kanbas-navigation li.wd-active button {
+    color: red;
+    background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation svg {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.wd-kanbas-navigation li.grey a svg {
+    color: lightgray;
+}
+
+
+
+.wd-courses-button-nav-card {
+    padding-top: 100px;
+    color: red;
+    width: 300px;
+    border: 0px;
+}
+
+.wd-courses-button-nav-card a{
+    color: red;
+}

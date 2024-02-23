@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* To be used in conjunction with "btn btn btn-light" and similar*/
+.wd-kanbas-button-primary {
+    color: black;
+    border-radius: 3px;
+    border: none;
+    margin: 0px;
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(130, 130, 130) !important;
+    min-height: 30px;
+}
+
+.wd-kanbas-button-primary:hover {
+    color: black;
+    background-color: rgb(200, 200, 200);
+}
+
+.wd-kanbas-button-primary:active {
+    color: black !important;
+    background-color: rgb(170, 170, 170) !important;
+}
+
+
+/* To be used in conjunction with "btn btn btn-light" */
+.wd-kanbas-button-highlight {
+    color: black;
+    border-radius: 3px;
+    border: none;
+    margin: 0px;
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(130, 130, 130) !important;
+    height: 30px
+}
+
+.wd-kanbas-button-highlight:hover {
+    color: black;
+    background-color: rgb(225, 0, 0);
+}
+.wd-kanbas-button-highlight:active {
+    color: black !important;
+    background-color: rgb(200, 0, 0) !important;
+}
+
+.wd-kanbas-override-margin {
+    margin: 0;
+}
+
+.wd-kanbas-search {
+    color: black;
+    border-radius: 3px;
+    border: none;
+    margin: 0px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid rgb(130, 130, 130) !important;
+    min-height: 30px;
+}
+
+.wd-breadcrumb::before {
+    content: '>' !important; 
+}
+
+.wd-fake-breadcrumb::before {
+    content: '' !important; 
+ }

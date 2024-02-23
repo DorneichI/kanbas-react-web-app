@@ -1,0 +1,36 @@
+.wd-courses-topbar-small-screen{
+    background-color: black;
+    color: white;
+}
+
+.wd-courses-topbar-small-screen button {
+    color: white;
+}
+
+.wd-kanbas-navigation-small-screen {
+    border-radius: 0px;
+    list-style: none;
+    padding: 0px;  
+    margin: 0px;
+}
+
+.wd-kanbas-navigation-small-screen li {
+    padding: 10px;
+    font-size: 0.8em; 
+    text-align: center;
+}
+
+.wd-kanbas-navigation-small-screen a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation-small-screen a svg {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.wd-kanbas-navigation-small-screen li.grey a svg {
+    color: lightgray;
+}

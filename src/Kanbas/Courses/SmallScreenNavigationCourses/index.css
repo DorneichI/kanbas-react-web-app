@@ -1,0 +1,67 @@
+.wd-courses-topbar-small-screen{
+    background-color: black;
+    color: white;
+}
+
+.wd-courses-topbar-small-screen button {
+    color: white;
+}
+
+.wd-kanbas-navigation-small-screen {
+    border-radius: 0px;
+    list-style: none;
+    padding: 0px;  
+    margin: 0px;
+}
+
+.wd-kanbas-navigation-small-screen li {
+    padding: 10px;
+    font-size: 0.8em; 
+    text-align: center;
+}
+
+.wd-kanbas-navigation-small-screen a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation-small-screen a svg {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.wd-kanbas-navigation-small-screen li.grey a svg {
+    color: lightgray;
+}
+
+.wd-navigation-courses-small-screen {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 130px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.wd-navigation-courses-small-screen li {
+    padding-left: 10px;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-navigation-courses-small-screen a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-courses-small-screen-nav-middle-list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.wd-courses-small-screen-nav-middle-list li {
+    text-align: center
+}
