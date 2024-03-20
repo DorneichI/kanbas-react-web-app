@@ -1,6 +1,6 @@
 import { HiMiniBars3 } from "react-icons/hi2";
 import { useLocation, useParams } from "react-router-dom";
-import { courses } from "../../Database";
+import { coursesDataBase } from "../../Database";
 import "./index.css";
 import { FaTachometerAlt, FaRegUserCircle, FaBook, FaRegCalendarAlt,
     FaInbox, FaClock, FaTv, FaArrowCircleRight, FaQuestion } from "react-icons/fa";
@@ -11,7 +11,7 @@ import { FaChevronDown } from "react-icons/fa6";
 function SmallScreenNavigationCourses() {
     const { pathname } = useLocation();
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const course = coursesDataBase.find((course) => course._id === courseId);
     const links = [
         { label: "Account",   icon: <FaRegUserCircle className="fs-2" />  },
         { label: "Dashboard", icon: <FaTachometerAlt className="fs-2" />  },

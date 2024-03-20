@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import "./index.css";
-import { courses } from "../Database";
+import { coursesDataBase } from "../Database";
 import { FaTachometerAlt, FaRegUserCircle, FaBook, FaRegCalendarAlt,
          FaInbox, FaClock, FaTv, FaArrowCircleRight, FaQuestion } from "react-icons/fa";
 function KanbasNavigation() {
@@ -37,7 +37,7 @@ function KanbasNavigation() {
           <h2> Courses </h2>
           <hr/>
           <ul className="">
-              {courses.map((course, index) => (
+              {coursesDataBase.map((course, index) => (
                   <li key={index} >
                       <Link to={`/Kanbas/Courses/${course._id}/Home`}> {course.number}: {course.name} </Link>
                   </li>

@@ -36,3 +36,7 @@
 .wd-tight-groupless-things{
   padding: 1px !important;
 }
+
+.wd-modulesbar-button {
+  background-color: lightgray;
+}

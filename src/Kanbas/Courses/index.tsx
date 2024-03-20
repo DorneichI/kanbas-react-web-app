@@ -1,11 +1,13 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import CourseNavigation from "./Navigation";
 import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 import TopBar from "./TopBar";
 import SmallScreenNavigationCourses from "./SmallScreenNavigationCourses";
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
+  const { courseId } = useParams();
+  const course = courses.find((course) => course._id === courseId);
   return (
     <div>
       <TopBar/>

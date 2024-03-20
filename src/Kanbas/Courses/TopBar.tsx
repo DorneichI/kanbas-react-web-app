@@ -1,14 +1,14 @@
 import { HiMiniBars3 } from "react-icons/hi2";
 import { useLocation, useParams } from "react-router";
 import { Link } from "react-router-dom"
-import { courses } from "../Database";
+import { coursesDataBase } from "../Database";
 import { navigationItems } from "./Navigation/NavigationItems";
 import "./TopBar.css";
 
 function TopBar() {
   const { pathname } = useLocation();
   const { courseId } = useParams();
-  const course = courses.find((course) => course._id === courseId);
+  const course = coursesDataBase.find((course) => course._id === courseId);
     return(
         <>
             <div className="d-none d-md-block">
